@@ -8,7 +8,6 @@
     <style>
         .container {
             width: 1200px;
-            margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr 2fr;
             gap: 10px;
@@ -16,15 +15,19 @@
 
         .left {
             background-color: red;
+            display: grid;
+            place-items: center;
         }
 
         .right {
             background-color: blue;
+            display: grid;
+            place-items: center;
         }
     </style>
 </head>
 
-<body>
+<body style=" height: 98vh; display: grid; place-items: center;">
     <div class="container">
         <div class="left">
             <h1>Left</h1>
